@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+    background: rgb(29, 167, 48);
+}
+
+.banner {
+    padding-top: 12px;
+    padding-left: 50px;
+}
+
+header .banner {
+    float: left;
+}
+
+header nav {
+    padding-right: 50px;
+    float: right;
+    line-height: 120px;
+}
+
+header nav a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 26px;
+    text-shadow: 3px 5px 5px black;
+    -webkit-transition: all 750ms ease;
+    -o-transition: all 750ms ease;
+    transition: all 750ms ease;
+    border-radius: 50px;
+}
+
+header nav a:hover {
+    background-color: rgb(0, 122, 0);
+}
+
+aside {
+    padding-top: 30px;
+    padding-right: 30px;
+    max-width: 500px;
+    float: right;
+}
+
+a.bpedidos {
+    display: block;
+    padding: 0.35em 1.2em;
+    border: 0.5em green;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 300;
+    color: rgb(29, 167, 48);
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.bpedidos:hover {
+    color: #000000;
+    background-color: rgb(29, 167, 48);
+}
+
+footer {
+    position: relative;
+    top: 10px;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+article {
+    padding: 30px 600px 0px 30px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.gerencia {
+    padding: 50px 0px 0px 50px;
+}
+
+.img_gerencia {
+    max-width: 30%;
+}
+
+textarea {
+    resize: none;
+}
+
+.mates {
+    margin: auto;
+    width: 960px;
+}
+
+.bombillas {
+    margin: auto;
+    width: 960px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    width: 300px;
+    float: right;
+    border: 1px solid rgb(0, 122, 0);
+    text-align: center;
+    margin: 9px;
+    border-radius: 3px;
+}
+
+ul li img {
+    border-radius: 20px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pedidos</title>
+    <link rel="icon" href="img/logo.png" sizes="20x20" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="cont">
+        <header class="">
+            <div class="wrapper">
+                <div class="banner">
+                    <img src="img/banner.png">
+                </div>
+                <nav>
+                    <a class="active" href="index.html">Inicio</a>
+                    <a href="qsomos.html">Quienes somos</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="rrhh.html">Trabaja con nosotros</a>
+
+                </nav>
+            </div>
+    </div>
+    </header>
+
+    <h1> PEDIDOS</h1>
+    <br>
+    <h2> HACE TU PEDIDO ONLINE - ENVIOS A TODO EL PAIS</h2>
+    <form>
+        <h3> Cliente:</h3>
+        Apellido Y Nombre &#32;<input type="text" placeholder="Apellido y Nombre" required maxlength="50" size="50" autofocus="" />
+        <font color="red">*</font>
+        <br>
+        <br> Correo &#32;<input type="text" placeholder="Correo" size="60" />
+        <br>
+        <br> Celular &#32;<input type="number" placeholder="Celular" minlength="7"> &nbsp;&nbsp; Telefono &#32;<input type="number" placeholder="Telefono" minlength="7" />
+        <font color="red">*</font>
+        <br>
+        <br> Seleccione la provincia
+        <select>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value=" Catamarca"> Catamarca</option>            
+                <option value=" CÃ³rdoba"> Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Entre RÃ­os">Entre Ríos</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Formosa">Formosa</option>
+                <option value="La Pampa">La Pampa</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones">Misiones</option>
+                <option value="NeuquÃ©n">Neuquén</option>
+                <option value="RÃ­o Negro">Río Negro</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Tierra del Fuego">Tierra del Fuego</option>   
+        </select>
+        <font color="red">*</font> &nbsp;&nbsp;&nbsp; Ciudad &#32;<input type="text" placeholder="Ciudad" size="60" required/>
+        <font color="red">*</font>
+        <br>
+        <br> Domicilio &#32;<input type="text" placeholder="Domicilio" size="60" required/>
+        <font color="red">*</font>
+        <br>
+        <br> Seleccione: <label><input type="radio" name=cade required > Casa </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><input type="radio" name=cade required >  Departamento &nbsp;&nbsp;&nbsp;&nbsp;</label> Piso
+        <input type="text" size="3" maxlength="1"> Letra
+        <input type="text" size="3" maxlength="1">
+        <h3> Pedido:</h3>
+        Elija el producto
+
+        <select>
+                <option value="mate pajaritos">Mate pajaritos</option>
+                <option value="mate gaucho"> mate gaucho</option>            
+                <option value="mate madera"> mate madera</option>
+                <option value="mate plastico">mate plastico</option>
+                <option value="mate metalico con detalles en oro">mate metalico con detalles en oro</option>
+                <option value="mate calabaza">mate calabaza</option>
+                <option value="bombilla 1">bombilla 1</option>
+                <option value="bombilla 2"> bombilla 2</option>            
+                <option value="bombilla 3"> bombilla 3</option>
+                <option value="bombilla 4">bombilla 4</option>
+                <option value="bombilla 4">bombilla 5</option>
+                <option value="bombilla 4">bombilla 6</option>
+        </select>
+        <br>
+        <br> Elija la cantidad &nbsp;<input type="number" required min='1' max='1000' required/>
+        <br>
+        <br> Dejenos su consulta:
+        <br>
+        <textarea rows="10" cols="70" resize:none maxlength="1000" placeholder="ingrese aqui"></textarea>
+        <br><br>
+        <input type="submit"><br><br>
+    </form>
+
+    <bold>Atencion</bold> los productos tienen una demora de maximo 7 dias habiles y si no te devolvemos tu dinero.(Valido solo para la republica Argentina)</h4>
+    <footer>
+        <p>Muñeco Mateico SA. Todos los derechos reservados copyright&copy;.<br> Tomasevich-Omedes-Guibes-Diaz-Bayochi
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>
